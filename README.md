@@ -1,4 +1,4 @@
-<h1 align="center">Hackintosh the Thinkpad X230</h1>
+<h1 align="center">macOS Big Sur on ThinkPad X230i</h1>
 
 
 #### I am not responsible for any damages you may cause.
