@@ -40,8 +40,8 @@
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| WiFi                                 | ✅   | `AirportItlwm.kext`  |
-| Bluetooth                            | ✅   | `IntelBluetoothFirmware.kext`  |
+| WiFi                                 | ✅   | `AirportBrcmFixup.kext`  |
+| Bluetooth                            | ✅   | `BrcmBluetoothInjector.kext`  |
 | Ethernet                             | ✅   | `IntelMausi.kext`  |
 | USB 2.0, USB 3.0                     | ✅   | `USBPorts.kext`    |
 | USB Power Properties in macOS        | ✅   | `SSDT-EC-USBX.aml` |
