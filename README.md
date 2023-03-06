@@ -126,6 +126,15 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 
 </details>
 
+<details>
+<summary><strong> POST-INSTALLATION </strong></summary>
+<br>
+
+- Turn off touchpad in Bios.
+
+</details>
+
+
 # Credits
 
 - [Apple](https://www.apple.com) for macOS.
