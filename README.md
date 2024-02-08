@@ -67,7 +67,7 @@
 </details>
 
 <details>
-<summary><strong>macOS Ventura </strong></summary>
+<summary><strong>macOS Ventura (experimental)</strong></summary>
 <br>
 - Rename 'EFI-Ventura-experimental' to 'EFI'
 
