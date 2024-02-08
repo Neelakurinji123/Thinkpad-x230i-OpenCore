@@ -115,6 +115,21 @@ Read these before you start:
 </details>
 
 <details>
+<summary><strong> BIOS </strong></summary>
+<br>  
+  
+| Category       |                     |
+| -------------- | ----------------------------------- |
+| Version        | G2ETB7WW (2.77) - mod version       |
+| Serial ATA     | AHCI                                |
+| IO Port Access | Disabled: WiMAX, Fingerprint reader |
+| Secure Boot    | Disabled                            |
+| Fingerprint    | Predesktop Authentication: Disabled |
+| Boot           | UEFI Only (CSM Support: No)         |
+
+</details>
+
+<details>
 <summary><strong> GETTING STARTED </strong></summary>
 <br>
 
