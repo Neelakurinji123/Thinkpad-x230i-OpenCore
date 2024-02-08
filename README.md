@@ -67,6 +67,13 @@
 </details>
 
 <details>
+<summary><strong>macOS Ventura </strong></summary>
+<br>
+- Rename 'EFI-Ventura-experimental' to 'EFI'
+
+</details>
+  
+<details>
 <summary><strong> REFERENCES </strong></summary>
 <br>
 
