@@ -43,7 +43,7 @@
 | WiFi                                 | ✅   | `AirportBrcmFixup.kext`  |
 | Bluetooth                            | ✅   | `BrcmBluetoothInjector.kext`  |
 | Ethernet                             | ✅   | `IntelMausi.kext`  |
-| USB 2.0, USB 3.0                     | ✅   | `USBPorts.kext`    |
+| USB 2.0, USB 3.0                     | ✅   | `USBPorts.kext USBMap.kext(for Ventura)`   |
 | USB Power Properties in macOS        | ✅   | `SSDT-EC-USBX.aml` |
 
 > ### Display, TrackPad, TrackPoint, and Keyboard
