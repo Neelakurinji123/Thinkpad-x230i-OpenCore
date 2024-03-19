@@ -43,7 +43,7 @@
 | Bluetooth                            | ✅   | `BrcmBluetoothInjector.kext`  |
 | Ethernet                             | ✅   | `IntelMausi.kext`  |
 | USB 2.0, USB 3.0                     | ✅   | `USBMap.kext`   |
-| USB Power Properties in macOS        | ✅   | `SSDT-UIAC.aml` |
+| USB Power Properties in macOS        | ✅   | `SSDT-USBX.aml` |
 
 > ### Display, TrackPad, TrackPoint, and Keyboard
 
