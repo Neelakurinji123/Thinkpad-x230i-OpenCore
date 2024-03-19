@@ -1,9 +1,8 @@
-<h1 align="center">macOS Big Sur on ThinkPad X230i</h1>
+<h1 align="center">macOS Ventura on ThinkPad X230i</h1>
 
 
 #### I am not responsible for any damages you may cause.
-
-
+![Screenshot from my X230i running Ventura!](Screenshot-ventura.png)
 
 
 
@@ -43,8 +42,8 @@
 | WiFi                                 | ✅   | `AirportBrcmFixup.kext`  |
 | Bluetooth                            | ✅   | `BrcmBluetoothInjector.kext`  |
 | Ethernet                             | ✅   | `IntelMausi.kext`  |
-| USB 2.0, USB 3.0                     | ✅   | `USBPorts.kext USBMap.kext(for Ventura)`   |
-| USB Power Properties in macOS        | ✅   | `SSDT-EC-USBX.aml` |
+| USB 2.0, USB 3.0                     | ✅   | `USBMap.kext`   |
+| USB Power Properties in macOS        | ✅   | `SSDT-UIAC.aml` |
 
 > ### Display, TrackPad, TrackPoint, and Keyboard
 
@@ -60,18 +59,20 @@
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| iCloud, iMessage, FaceTime           | ✅   | Whitelisted Apple ID, Valid SMBIOS  |
-| AirDrop                              | ✅   | Not tested  |
-| Time Machine                         | ✅   | Native  |
+| iCloud, iMessage, FaceTime           | ❗   | Not tested  |
+| AirDrop                              | ❗   | Not tested  |
+| Time Machine                         | ✅  | Native      |
 
 </details>
 
+<<<<<<< HEAD
+=======
 <details>
 <summary><strong>macOS Ventura (experimental) - OpenCore 0.9.8</strong></summary>
 <br>
 - Rename 'EFI-Ventura-experimental' to 'EFI'
+>>>>>>> a0054d60b1f98a908f369d1a3d58c0a300c29e59
 
-</details>
   
 <details>
 <summary><strong> REFERENCES </strong></summary>
@@ -117,6 +118,7 @@ Read these before you start:
 | Display   | 12.5' HD (1366x768)      |
 | WiFi & BT | BCM94352HMB / DW1550     |
 
+
 - Refer to [X230-Platform_Specifications](https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X230.pdf) for possible stock ThinkPad X230 configurations.
 
 </details>
@@ -133,6 +135,7 @@ Read these before you start:
 | Secure Boot    | Disabled                            |
 | Fingerprint    | Predesktop Authentication: Disabled |
 | Boot           | UEFI Only (CSM Support: No)         |
+| Bootloader     | OC-0.9.9                            |
 
 </details>
 
@@ -166,3 +169,4 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 - [Dortania](https://github.com/dortania) for for the OpenCore Install Guide.
 - [simprecicchiani](https://github.com/simprecicchiani) for inspirational ThinkPad configurations.
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC**.
+- Theme for Opencanopy:  https://github.com/82ghost82/BigSurFlat
