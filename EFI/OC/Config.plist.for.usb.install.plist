@@ -1455,21 +1455,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-<<<<<<< HEAD:EFI/OC/Config.plist.for.usb.install.plist
                 <string>C02832802CDHWVPAD</string>
-=======
-                <string>C028196004NHWVPAD</string>
->>>>>>> a0054d60b1f98a908f369d1a3d58c0a300c29e59:EFI-Ventura-experimental/OC/Config.plist
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-<<<<<<< HEAD:EFI/OC/Config.plist.for.usb.install.plist
                 <data>atGSqW5V</data>
-=======
-                <data>qkp4M7cl</data>
->>>>>>> a0054d60b1f98a908f369d1a3d58c0a300c29e59:EFI-Ventura-experimental/OC/Config.plist
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1477,15 +1469,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro14,1</string>
                 <key>SystemSerialNumber</key>
-<<<<<<< HEAD:EFI/OC/Config.plist.for.usb.install.plist
                 <string>C02X6HYBHV29</string>
                 <key>SystemUUID</key>
                 <string>CF0E5E64-44A5-4B8B-9FE6-520DC6E9FBA4</string>
-=======
-                <string>C02WP0T4HV29</string>
-                <key>SystemUUID</key>
-                <string>396A2B64-B9B9-4397-9E79-4134FE4EA97F</string>
->>>>>>> a0054d60b1f98a908f369d1a3d58c0a300c29e59:EFI-Ventura-experimental/OC/Config.plist
             </dict>
             <key>UpdateDataHub</key>
             <true/>
