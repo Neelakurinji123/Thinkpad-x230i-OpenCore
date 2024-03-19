@@ -65,14 +65,6 @@
 
 </details>
 
-<<<<<<< HEAD
-=======
-<details>
-<summary><strong>macOS Ventura (experimental) - OpenCore 0.9.8</strong></summary>
-<br>
-- Rename 'EFI-Ventura-experimental' to 'EFI'
->>>>>>> a0054d60b1f98a908f369d1a3d58c0a300c29e59
-
   
 <details>
 <summary><strong> REFERENCES </strong></summary>
