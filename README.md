@@ -80,6 +80,7 @@ Read these before you start:
 - [dortania/ `USB map` guide](https://dortania.github.io/OpenCore-Post-Install/usb/).
 - [WhateverGreen Intel HD Manual](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md).
 - `Configuration.pdf` and `Differences.pdf` in each `OpenCore` releases.
+- [Bios mod.](https://github.com/gch1p/thinkpad-bios-software-flashing-guide#bios-versions)
 
 </details>
 
