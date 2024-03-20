@@ -98,7 +98,7 @@
                     <key>Comment</key>
                     <string>Fix Sata Ahci</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-SATA.aml</string>
                 </dict>
