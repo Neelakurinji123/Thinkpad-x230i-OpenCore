@@ -88,14 +88,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Fix SMBus support</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-SBUS.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>Fixes Sleep and Wake issues</string>
                     <key>Enabled</key>
                     <true/>
