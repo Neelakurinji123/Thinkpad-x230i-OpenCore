@@ -98,7 +98,7 @@
                     <key>Comment</key>
                     <string>Fix Windows booting</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-XOSI.aml</string>
                 </dict>
@@ -830,7 +830,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>X0JJRg==</data>
                     <key>Limit</key>
@@ -860,7 +860,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>X0JTVA==</data>
                     <key>Limit</key>
