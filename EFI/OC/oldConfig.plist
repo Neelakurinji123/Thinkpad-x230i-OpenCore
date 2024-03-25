@@ -64,6 +64,14 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
+                    <string>Fixes Sleep and Wake issues</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-PTWK.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
                     <string>EC RW</string>
                     <key>Enabled</key>
                     <true/>
@@ -1867,23 +1875,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02451310GUF1YJUE</string>
+                <string>C02828401GUHWVPA8</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>dNlHfTxY</data>
+                <data>ROHquoyL</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro9,2</string>
+                <string>MacBookPro14,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02NVRYGDTY3</string>
+                <string>C02X2TY0HV29</string>
                 <key>SystemUUID</key>
-                <string>53726168-012E-437E-BD77-5BFFFCC54DD1</string>
+                <string>5AC077DA-9298-4CC7-AC12-CC9848D127D5</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
