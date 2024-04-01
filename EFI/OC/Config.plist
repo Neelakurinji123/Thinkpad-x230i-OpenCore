@@ -90,9 +90,17 @@
                     <key>Comment</key>
                     <string>TrackPad, TrackPoint Patched</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>SSDT-KBD.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Enabling Power Button</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PWRB.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -709,7 +717,7 @@
                 <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
-                    <string>Internal@0,31,1</string>
+                    <string>Internal@0,31,0</string>
                     <key>device_type</key>
                     <string>Audio Device</string>
                     <key>hda-gfx</key>
