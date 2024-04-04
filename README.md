@@ -30,7 +30,7 @@
 | :----------------------------------- | ------ | ------------------- |
 | Battery Percentage Indication        | ✅   | `ECEnabler.kext`            | 
 | iGPU Power Management                | ✅   | `XCPM`, enabled by [`SSDT-PM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
-| S3 Sleep/ Hibernation Mode 3         | ✅   | `SSDT-PWTK.aml` |  |   
+| S3 Sleep/ Hibernation Mode 3         | ✅   | `SSDT-SLEEP.aml` |  |   
 | Custom Charge Threshold              | ✅   | `SSDT-EC.aml`, [YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)|
 | Fan Control                          | ✅   | `SSDT-EC.aml`, [YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)|
 | Battery Life                         | ✅   | Native, comparable to Windows/Linux. |
@@ -40,7 +40,7 @@
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | WiFi                                 | ✅   | `AirportBrcmFixup.kext`  |
-| Bluetooth                            | ✅   | `BrcmBluetoothInjector.kext`  |
+| Bluetooth                            | ✅   | `USBMap.kext`  |
 | Ethernet                             | ✅   | `IntelMausi.kext`  |
 | USB 2.0, USB 3.0                     | ✅   | `USBMap.kext`   |
 | USB Power Properties in macOS        | ✅   | `SSDT-USBX.aml` |
