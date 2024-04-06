@@ -40,14 +40,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>EC for laptop</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-EC-LAPTOP.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>Fix Brightness</string>
                     <key>Enabled</key>
                     <true/>
@@ -98,17 +90,9 @@
                     <key>Comment</key>
                     <string>Enabling Power Button</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-PWRB.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>Hibernation/Sleep/Wake</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT_IFFS.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -330,36 +314,6 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>SAT1 to SATA</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>U0FUMQ==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>U0FUQQ==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
                     <string>PNLF: (NBCF, 0x00) to (NBCF, 0x01)</string>
                     <key>Count</key>
                     <integer>0</integer>
@@ -540,41 +494,11 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>SLEEP: GPRW(2,N) to ZPRW</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>BkdQUlcCcA==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>BlpQUlcCcA==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
                     <string>SLEEP: _WAK(1,S) to ZWAK</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>X1dBSwk=</data>
                     <key>Limit</key>
@@ -623,6 +547,36 @@
                     <integer>0</integer>
                     <key>TableSignature</key>
                     <data>RFNEVA==</data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>SLEEP: _WAK to ZWAK</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>X1dBSw==</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>WldBSw==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data></data>
                 </dict>
             </array>
             <key>Quirks</key>
@@ -1367,19 +1321,19 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
-                    <string>USBMapDummy.kext</string>
+                    <string>CtlnaAHCIPort.kext</string>
                     <key>Comment</key>
-                    <string>V1.0</string>
+                    <string>V341.0.2</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
-                    <string></string>
+                    <string>Contents/MacOS/CtlnaAHCIPort</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
-                    <string></string>
+                    <string>20.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -1493,6 +1447,36 @@
                     <key>Skip</key>
                     <integer>0</integer>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Base</key>
+                    <string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
+                    <key>Comment</key>
+                    <string>Disable RTC wake scheduling</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data></data>
+                    <key>Identifier</key>
+                    <string>com.apple.driver.AppleRTC</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>19.0.0</string>
+                    <key>Replace</key>
+                    <data>ww==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
             </array>
             <key>Quirks</key>
             <dict>
@@ -1539,7 +1523,7 @@
                 <key>SetApfsTrimTimeout</key>
                 <integer>-1</integer>
                 <key>ThirdPartyDrives</key>
-                <false/>
+                <true/>
                 <key>XhciPortLimit</key>
                 <false/>
             </dict>
@@ -1564,7 +1548,7 @@
                 <key>ConsoleAttributes</key>
                 <integer>0</integer>
                 <key>HibernateMode</key>
-                <string>NVRAM</string>
+                <string>None</string>
                 <key>HibernateSkipsPicker</key>
                 <false/>
                 <key>HideAuxiliary</key>
@@ -1888,7 +1872,7 @@
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
                 <key>AudioOutMask</key>
-                <integer>1</integer>
+                <integer>-1</integer>
                 <key>AudioSupport</key>
                 <true/>
                 <key>DisconnectHda</key>
