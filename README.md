@@ -106,7 +106,7 @@ Read these before you start:
 
 | Category  | THINKPAD X230i           |
 | --------- | ------------------------ |
-| CPU       | Intel Core i3-3110M      |
+| CPU       | Intel Core i3-3120M      |
 | SSD       | 480GB                    |
 | Display   | 12.5' HD (1366x768)      |
 | WiFi & BT | BCM94352HMB / DW1550     |
