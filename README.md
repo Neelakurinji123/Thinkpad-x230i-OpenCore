@@ -90,7 +90,7 @@ Read these before you start:
 - Xcode works fine for editing plist files on macOS, but I prefer [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/).  
 - [ProperTree](https://github.com/corpnewt/ProperTree) if you need to edit plist files on Windows.  
 - [MaciASL](https://github.com/acidanthera/MaciASL), for patching ACPI tables and editing ACPI patches.
-- [MountEFI](https://github.com/corpnewt/MountEFI) to quickly mount EFI partitions.  
+- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/blob/master/READMe.md) to quickly mount EFI partitions and to edit config.plist.  
 - [IORegistryExplorer](https://developer.apple.com/downloads), for diagnosis.  
 - [Hackintool](https://www.insanelymac.com/forum/topic/335018-hackintool-v286/), for diagnostic ONLY, Hackintool should not be used for patching, it is outdated.
 - Patience and time, especially if this is your first time Hackintosh-ing.
