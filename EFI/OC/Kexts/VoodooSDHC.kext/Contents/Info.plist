@@ -3,13 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16B2548a</string>
+	<string>24B83</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooSDHC</string>
+	<key>CFBundleIconFile</key>
+	<string>me.jpg</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.voodoo.VoodooSDHC</string>
+	<string>VoodooSDHC</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,85 +25,49 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.12.0</string>
+	<string>1.1d1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8A218a</string>
+	<string>24A330</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>15.0</string>
 	<key>DTSDKBuild</key>
-	<string>16A300</string>
+	<string>24A330</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12</string>
+	<string>macosx15.0</string>
 	<key>DTXcode</key>
-	<string>0800</string>
+	<string>1600</string>
 	<key>DTXcodeBuild</key>
-	<string>8A218a</string>
+	<string>16A242</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>VoodooSDHC</key>
+		<key>SD Card Host Controller</key>
 		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>org.voodoo.VoodooSDHC</string>
-			<key>Device Characteristics</key>
-			<dict>
-				<key>Product Name</key>
-				<string>Built In SDHC Reader</string>
-				<key>Vendor Name</key>
-				<string>VoodooLabs</string>
-			</dict>
 			<key>IOClass</key>
 			<string>VoodooSDHC</string>
-			<key>IOMediaIcon</key>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
-				<key>IOBundleResourceFile</key>
-				<string>SD.icns</string>
-			</dict>
-			<key>IONameMatch</key>
-			<array>
-				<string>pci10ec,5229</string>
-				<string>pci1180,e823</string>
-				<string>pci197b,2391</string>
-			</array>
-			<key>IOPowerManagement</key>
-			<dict>
-				<key>CapabilityFlags</key>
-				<integer>0</integer>
-				<key>CurrentPowerState</key>
-				<integer>2</integer>
-				<key>MaxPowerState</key>
-				<integer>2</integer>
-			</dict>
+			<key>IOPCIMatch</key>
+			<string>0x08221180 0x08231180 0xe8231180</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
-			<key>Protocol Characteristics</key>
-			<dict>
-				<key>Physical Interconnect</key>
-				<string>Secure Digital</string>
-				<key>Physical Interconnect Location</key>
-				<string>Internal</string>
-			</dict>
 		</dict>
 	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>11.5</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOPCIFamily</key>
-		<string>2.9</string>
+		<string>2.6</string>
 		<key>com.apple.iokit.IOStorageFamily</key>
-		<string>2.1</string>
-		<key>com.apple.kpi.bsd</key>
-		<string>15.6.0</string>
+		<string>1.6</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>15.6.0</string>
+		<string>8.0.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>15.6.0</string>
+		<string>8.0.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>15.6.0</string>
+		<string>8.0.0</string>
 	</dict>
-	<key>OSBundleRequired</key>
-	<string>Local-Root</string>
 </dict>
 </plist>
