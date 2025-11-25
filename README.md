@@ -1,4 +1,4 @@
-<h1 align="center">macOS Ventura on ThinkPad X230i</h1>
+<h1 align="center">macOS Sequoia on ThinkPad X230i</h1>
 
 
 #### I am not responsible for any damages you may cause.
@@ -19,10 +19,9 @@
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Full Graphics Accleration (QE/CI)    | ✅   | `WhateverGreen.kext`  |
-| Audio Recording                      | ✅   | `AppleALC.kext` with Layout ID = 55 and `SSDT-HPET.aml`   |
-| Audio Playback                       | ✅   | `AppleALC.kext` with Layout ID = 55 and `SSDT-HPET.aml`   |
-| Automatic Headphone Output Switching | ✅   | `AppleALC.kext` with Layout ID = 55 and `SSDT-HPET.aml`   |
-| Dock Audio Port                      | ✅   | `AppleALC.kext` with Layout ID = 55 and `SSDT-HPET.aml`   |
+| Audio Recording                      | ✅   | `AppleALC.kext` with Layout ID = 18 and `SSDT-HPET.aml`   |
+| Audio Playback                       | ✅   | `AppleALC.kext` with Layout ID = 18 and `SSDT-HPET.aml`   |
+| Automatic Headphone Output Switching | ✅   | `AppleALC.kext` with Layout ID = 18 and `SSDT-HPET.aml`   |
 
 > ### Power, Charge, Sleep and Hibernation
 
@@ -30,9 +29,7 @@
 | :----------------------------------- | ------ | ------------------- |
 | Battery Percentage Indication        | ✅   | `ECEnabler.kext`            | 
 | iGPU Power Management                | ✅   | `XCPM`, enabled by [`SSDT-PM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
-| S3 Sleep/ Hibernation Mode 3         | ✅   | `SSDT-SLEEP.aml` |  |   
-| Custom Charge Threshold              | ✅   | `SSDT-EC.aml`, [YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)|
-| Fan Control                          | ✅   | `SSDT-EC.aml`, [YogaSMC.kext](https://github.com/zhen-zen/YogaSMC), and [YogaSMCPane](https://github.com/zhen-zen/YogaSMC)|
+| S3 Sleep/ Hibernation Mode 3         | ✅   | `SSDT-SLEEP.aml` | 
 | Battery Life                         | ✅   | Native, comparable to Windows/Linux. |
 
 > ### Input/ Output
@@ -40,7 +37,7 @@
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | WiFi                                 | ✅   | `AirportBrcmFixup.kext`  |
-| Bluetooth                            | ✅   | `USBMap.kext`  |
+| Bluetooth                            | ❌   | `USBMap.kext`  |
 | Ethernet                             | ✅   | `IntelMausi.kext`  |
 | USB 2.0, USB 3.0                     | ✅   | `USBMap.kext`   |
 | USB Power Properties in macOS        | ✅   | `SSDT-USBX.aml` |
@@ -138,9 +135,10 @@ Read these before you start:
 
 Before you do anything, please familiarize yourself with basic Hackintosh terminologies and the basic Hackintosh process by throughly reading Dortania guides as linked in `REFERENCES`
 
-- Creating a macOS installer: refer to [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
+- Creating a macOS Ventura installer: refer to [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 - [**README-HARDWARE**](/Other/README_HARDWARE.md): Requirements before installing.
 - [**README-OTHERS**](/Other/README_OTHERS.md): for post installation settings and other remarks.
+- Upgrade to MacOS Sequoia from Ventura.
 
 </details>
 
@@ -148,6 +146,8 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 <summary><strong> POST-INSTALLATION </strong></summary>
 <br>
 
+- Apply [OCLP-Mod](https://github.com/laobamac/OCLP-Mod).
+- Benerate SMBIOS with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).
 - Turn off touchpad in Bios.
 
 </details>
