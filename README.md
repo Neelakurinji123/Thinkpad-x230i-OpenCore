@@ -2,7 +2,7 @@
 
 
 #### I am not responsible for any damages you may cause.
-![Screenshot from my X230i running Ventura!](Screenshot-ventura.png)
+![Screenshot from my X230i running Ventura!](Screenshot_sequoia.jpeg)
 
 
 
