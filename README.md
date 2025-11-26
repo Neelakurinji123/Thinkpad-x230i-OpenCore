@@ -163,3 +163,11 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 - [simprecicchiani](https://github.com/simprecicchiani) for inspirational ThinkPad configurations.
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC**.
 - Theme for Opencanopy:  https://github.com/82ghost82/BigSurFlat
+- [Hackintool](https://github.com/benbaker76/Hackintool)
+- [MaciASL](https://github.com/acidanthera/MaciASL)
+- [ACPI Source Language (ASL) Tutorial](https://cdrdv2-public.intel.com/772722/asl-tutorial-v20190625.pdf)
+- [Installing macOS Ventura and newer on Ivy Bridge systems](https://github.com/5T33Z0/OCLP4Hackintosh/blob/main/Guides/Ivy_Bridge.md)
+- [How to Make Generic CSR USB Bluetooth 5.0/4.0 Dongle Works on Sequoia](https://www.reddit.com/r/hackintosh/comments/1g4z5te/how_to_make_generic_csr_usb_bluetooth_5040_dongle/?utm_source=embedv2&utm_medium=post_embed&utm_content=post_body&embed_host_url=https://www.insanelymac.com/index.php)
+- [SSDTTime](https://github.com/corpnewt/SSDTTime)
+- [Sleep fix](https://www.insanelymac.com/forum/topic/360040-macos-15-sequoia-does-not-enter-sleep-mode-properly)
+
