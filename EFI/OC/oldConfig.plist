@@ -1442,7 +1442,7 @@
                 <key>MaxKernel</key>
                 <string></string>
                 <key>MinKernel</key>
-                <string>20.0.0</string>
+                <string></string>
             </dict>
             <key>Force</key>
             <array/>
@@ -1939,13 +1939,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02009600GU0000CB</string>
+                <string>0000000000000000</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data></data>
+                <data>AAAAAAAA</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1953,9 +1953,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro9,2</string>
                 <key>SystemSerialNumber</key>
-                <string></string>
+                <string>000000000000</string>
                 <key>SystemUUID</key>
-                <string></string>
+                <string>00000000-0000-0000-0000-000000000000</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>

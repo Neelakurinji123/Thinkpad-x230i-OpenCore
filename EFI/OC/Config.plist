@@ -2038,13 +2038,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>0000000000000000</string>
+                <string>C02009600GU0000CB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>AAAAAAAA</data>
+                <data></data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -2052,9 +2052,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro9,2</string>
                 <key>SystemSerialNumber</key>
-                <string>000000000000</string>
+                <string></string>
                 <key>SystemUUID</key>
-                <string>00000000-0000-0000-0000-000000000000</string>
+                <string></string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
